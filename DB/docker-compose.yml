@@ -1,0 +1,14 @@
+services:
+  mysql:
+    image: mysql:8.4
+    restart: always
+    container_name: mysql-fusionteste
+    environment:
+      - MYSQL_ROOT_PASSWORD=mysql
+    ports: 
+      - '3306:3306'
+    networks: 
+      - fusion-network
+networks:
+  fusion-network:
+    driver: bridge
