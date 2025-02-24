@@ -78,7 +78,7 @@ A aplicação possui uma tabela `products` com os seguintes campos:
 ### 🔹 Backend (Laravel)
 1. Clone o repositório e acesse a pasta do projeto:
    ```sh
-   git clone https://github.com/seu-usuario/seu-repositorio.git
+   git clone https://github.com/PedroBarrosDev/FusionTeste.git
    cd backend
    ```
 2. Instale as dependências:
